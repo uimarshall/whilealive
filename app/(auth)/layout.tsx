@@ -1,5 +1,6 @@
 import { ClerkProvider } from '@clerk/nextjs';
 import { Inter } from 'next/font/google';
+import '../globals.css';
 
 // Original source: https://github.com/vercel/next.js/blob/canary/examples/with-typescript-eslint-jest/app/auth/layout.tsx
 export const metadata = {
