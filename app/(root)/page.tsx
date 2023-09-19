@@ -1,12 +1,13 @@
 // import Image from 'next/image';
-import { UserButton } from '@clerk/nextjs';
+// import { UserButton } from '@clerk/nextjs';
 
 export default function Home() {
   return (
     <main className="">
       <h1>WhileAlive</h1>
       <div>
-        <UserButton afterSignOutUrl="/" />
+        <p>Home</p>
+        {/* <UserButton afterSignOutUrl="/" /> */}
       </div>
     </main>
   );

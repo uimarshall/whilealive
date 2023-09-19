@@ -216,7 +216,8 @@ const config: Config = {
         'light-2': '#EFEFEF',
         'light-3': '#7878A3',
         'light-4': '#5C5C7B',
-        'gray-1': '#697C89',
+        'gray-1': '##F6F8FC',
+        'gray-2': '#697C89',
         glassmorphism: 'rgba(16, 16, 18, 0.60)',
       },
       backgroundImage: (theme) => ({
