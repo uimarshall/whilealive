@@ -10,7 +10,7 @@
 
   /* Head Text */
   .head-text {
-    @apply text-heading2-bold text-light-1;
+    @apply text-heading2-bold text-dark-3;
   }
 
   /* Activity */
@@ -58,8 +58,8 @@
     @apply border-none bg-dark-3 text-base-regular text-light-4 outline-none !important;
   }
 
-  .topbar {
-    @apply fixed top-0 z-30 flex w-full items-center justify-between bg-dark-2 px-6 py-3;
+  .navbar {
+    @apply fixed top-0 z-30 flex w-full items-center justify-between bg-light-3 px-6 py-3;
   }
 
   .bottombar {
